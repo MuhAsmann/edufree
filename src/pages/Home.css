@@ -1,0 +1,313 @@
+hr{
+    background-color: #eee;
+    border: 0 none;
+    color: #eee;
+    height: 2px;
+    margin-top: 10px;
+}
+.jumbotron{
+    padding: 0 5%;
+    background-color: #1C1E53;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.jumbotron .content{
+    flex-basis:50% ;
+}
+
+.jumbotron .content h1{
+    font-size: 42px;
+}
+
+.jumbotron .content p{
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 80px;
+}
+.jumbotron .content .button{
+    display: flex;
+    width: 381px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jumbotron .content .button a.button-second{
+    background-color: #FCD980;
+    height: 54px;
+    width: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: #282938;
+    font-weight: 400;
+}
+
+.jumbotron .gambar{
+    flex-basis: 50%;
+}
+.jumbotron .gambar img{
+    width: 577px;
+}
+
+.sponsor{
+    height: 231px;
+    background-color: #EEF4FA;
+    padding: 15px 5%;
+    display: flex;
+}
+.sponsor .info {
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sponsor .info p{
+    color: #282938;
+    font-weight: 100;
+}
+.sponsor .info p>span{
+    color: #1C1E53;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.sponsor .brand {
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sponsor .brand p{
+    color: #282938;
+    font-weight: 700;
+    text-align: center;
+
+}
+.sponsor .brand p>span{
+    color: #1C1E53;
+    font-weight: 700;
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.keuntungan{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 5%;
+}
+
+.keuntungan h1{
+    color: #1C1E53;
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 80px;
+}
+
+.keuntungan .items-keuntungan{
+    color: #1C1E53;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap;
+    gap:20px 0;
+}
+
+.keuntungan .items-keuntungan .item-keuntungan{
+    flex-basis: calc(85% / 3);
+    padding: 20px;
+    height: 316px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F6FC;
+    /* align-items: center; */
+    justify-content: center;
+    border-radius: 5px;
+    text-align: left;
+    row-gap: 15px;
+}
+
+.keuntungan .items-keuntungan .item-keuntungan .icon{
+   position: relative;
+   /* background-color: green; */
+}
+
+.keuntungan .items-keuntungan .item-keuntungan .icon>span{
+    position: absolute;
+    color: #F4F6FC;
+    left: 17px;
+    bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+ }
+
+.keuntungan .items-keuntungan .item-keuntungan h2{
+    color: #282938;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.keuntungan .items-keuntungan .item-keuntungan p{
+    text-align: justify;
+    color: #282938;
+}
+
+.tentang-kami{
+    display: flex;
+    padding: 15px 5% 80px;
+}
+
+.tentang-kami .info-tentang{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* justify-content: space-around; */
+    row-gap: 15px;
+}
+
+.tentang-kami .info-tentang h3{
+    color: #232536;
+    font-size: 18px;
+    font-weight: 400;
+}
+.tentang-kami .info-tentang h2{
+    color: #1C1E53;
+    font-size: 38px;
+    font-weight: 600;
+}
+.tentang-kami .info-tentang p{
+    color: #282938;
+    font-size: 16px;
+}
+
+.tentang-kami img{
+    width: 575px;
+    border-radius: 10px;
+}
+
+.rekomendasi-kursus{
+    /* background-color: green; */
+    padding: 80px 5%;
+    /* position: relative; */
+}
+
+.rekomendasi-kursus .nav-kursus{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rekomendasi-kursus .nav-kursus h1{
+    color: #282938;
+    font-weight: 600;
+    text-align: left;
+    font-size: 38px;
+}
+
+.rekomendasi-kursus .nav-kursus .fitur {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.rekomendasi-kursus .nav-kursus .fitur a.button-second{
+    background-color: #FCD980;
+    height: 54px;
+    width: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: #282938;
+    font-weight: 500;
+}
+
+.rekomendasi-kursus .nav-kursus .fitur select{
+    color: #232536;
+    border: 0px;
+}
+
+.rekomendasi-kursus .nav-kursus .fitur select>option{
+    color: #1C1E53;
+}
+
+.rekomendasi-kursus .kursus-item{
+    margin-top: 30px;
+    display: grid;
+    justify-content: space-between;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: auto auto auto;
+    /* background-color: green; */
+}
+
+.rekomendasi-kursus .kursus-item .item{
+    width: 386px;
+    height: 418px;
+    position: relative;
+}
+.rekomendasi-kursus .kursus-item .item span.rating{
+    display: flex;
+    width: 63px;
+    height: 25px;
+    background-color: #1C1E53;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2px;
+    position: absolute;
+    right: 10px;
+    top: 225px;
+}
+.rekomendasi-kursus .kursus-item .item span.rating p{
+    font-size: 12px;
+}
+
+.rekomendasi-kursus .kursus-item .item h4{
+    color: #282938;
+    text-align: left;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 10px 10px 0;
+}
+
+.rekomendasi-kursus .kursus-item .item p.desk{
+    color: #282938;
+    text-align: left;
+    margin: 5px 10px 10px;
+    text-align: justify;
+}
+
+.rekomendasi-kursus .kursus-item .item .point{
+    display: flex;
+    margin: 25px 10px 0;
+    justify-content: space-between;
+    color: #282938;
+}
+
+.rekomendasi-kursus .kursus-item .item .point .jam{
+    color: #282938;
+}
+.rekomendasi-kursus .kursus-item .item .point .jam span{
+    color: #282938;
+    margin-right: 5px;
+}
+.rekomendasi-kursus .kursus-item .item .point .vidio{
+    color: #282938;
+}
+.rekomendasi-kursus .kursus-item .item .point .vidio span{
+    color: #282938;
+    margin-right: 5px;
+}
+.rekomendasi-kursus .kursus-item .item .point .pelajar{
+    color: #282938;
+}
+.rekomendasi-kursus .kursus-item .item .point .pelajar span{
+    color: #282938;
+    margin-right: 5px;
+}
+
