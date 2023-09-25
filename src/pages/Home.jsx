@@ -5,10 +5,11 @@ import home from '../images/home1.png';
 import point from '../images/point.png';
 import gambar1 from "../images/gambar1.png"
 import kursus1 from "../images/kursus1.png"
+import profil from "../images/profi.png"
 
 const Home = () => {
   return (
-    <div>
+    <>
         <div className='jumbotron' id='jumbotron'>
             <div className="content">
                 <h1>Bangun Dan Wujudkan Cita <br/> bersama EDUFREE</h1>
@@ -139,7 +140,34 @@ const Home = () => {
                 </div>
             </div>
         </div>
-    </div>
+        <div className="tentang-mereka">
+            <div className="tentang-mereka-kiri">
+                <h3>Kata Mereka Tentang <br />Kursus EDUFREE</h3>
+                <p>EDUFREE Telah Dipercaya Lebih Dari <br /> 10.000 Siswa</p>
+            </div>
+            <div className="tentang-mereka-kanan">
+                <div className='text'>"Materi Yang Disampaikan Mudah Dimengerti, Kualitas Instruktur Sangat Baik Serta Responnya Yang Cepat. So, kursus Disini Sangat Sangat Saya Rekomendasikan"</div>
+                <div className="box">
+                    <div className="user">
+                        <div className="profil">
+                            <img src={profil} />
+                        </div>
+                        <div className="nama-profile">
+                            <p className='name'>Jenny Wilson</p>
+                            <p className='position'>Vice President</p>
+                        </div>
+                    </div>
+                    <div className="toggle-bulat">
+                        <div></div>
+                        <div className='aktif-toggle'></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </>
   )
 }
 

@@ -311,3 +311,127 @@ hr{
     margin-right: 5px;
 }
 
+.tentang-mereka{
+    box-sizing: border-box;
+    position: relative;
+    height: 367px;
+    background-color: #EEF4FA;
+    /* background-color: green; */
+
+    display: flex;
+    /* align-items: center; */
+
+    padding: 86px 5% 0;
+    justify-content: space-around;
+}
+
+.tentang-mereka .tentang-mereka-kiri{
+    text-align: left;
+    color: #282938;
+    flex-basis: 40%;
+}
+
+.tentang-mereka .tentang-mereka-kiri h3{
+    color: #282938;
+font-size: 28px;
+font-family: Poppins;
+font-weight: 600;
+line-height: 47.60px;
+letter-spacing: 0.14px;
+word-wrap: break-word
+}
+
+.tentang-mereka .tentang-mereka-kiri p{
+
+color: #282938;
+font-size: 16px;
+font-family: Poppins;
+font-weight: 400;
+line-height: 24px;
+word-wrap: break-word
+}
+
+.tentang-mereka .tentang-mereka-kanan{
+    flex-basis: 60%;
+}
+
+.tentang-mereka .tentang-mereka-kanan .text{
+color: #282938;
+font-size: 26px;
+font-family: Poppins;
+font-weight: 500;
+line-height: 36.40px;
+letter-spacing: 0.13px;
+word-wrap: break-word;
+text-align: justify;
+}
+
+.tentang-mereka .tentang-mereka-kanan .box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #1C1E53;
+    margin-top: 46px;
+}
+
+.tentang-mereka .tentang-mereka-kanan .box .user {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: green; */
+    column-gap: 10px;
+    
+}
+
+.tentang-mereka .tentang-mereka-kanan .box .user .profil{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+
+.tentang-mereka .tentang-mereka-kanan .box .user .profil img{
+   width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.tentang-mereka .tentang-mereka-kanan .box .user .nama-profile .name{
+    color: #282938;
+font-size: 18px;
+}
+
+.tentang-mereka .tentang-mereka-kanan .box .user .nama-profile .position{
+    color: #282938;
+font-size: 12px;
+font-weight: 500;
+line-height: 16.80px;
+word-wrap: break-word;
+text-align: left;
+}
+
+.tentang-mereka .tentang-mereka-kanan .box .toggle-bulat{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.tentang-mereka .tentang-mereka-kanan .box .toggle-bulat div{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #545560;
+    opacity: 20%;
+}
+.tentang-mereka .tentang-mereka-kanan .box .toggle-bulat div:hover{
+    background-color: #2405F2;
+    opacity: 50%;
+}
+
+.tentang-mereka .tentang-mereka-kanan .box .toggle-bulat div.aktif-toggle{
+    background-color: #2405F2;
+    opacity: 100%;
+}
